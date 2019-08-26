@@ -31,6 +31,10 @@ a:visited {
     color: #e84e1b;
     transition: 0.2s all ease;
 }
+i:link,
+i:visited {
+    color: #fff;
+}
 
 a:hover {
     text-decoration: none;
@@ -187,8 +191,10 @@ nav ul li a:hover {
     padding: 180px 0;
     text-align: center;
 }
+.firstmain {
+ background: #F2F2F2;
+}
 main {
-    background: #F2F2F2;
     padding: 50px 0 120px;
     text-align: center;
 }
@@ -304,4 +310,86 @@ footer {
 
 #footerBottom .button {
     float: right;
+}
+#central {
+    border-top: 1px solid #CCC;
+    padding: 60px 0 120px;
+}
+
+.referenceLink {
+    width: 100%;
+    margin: 0 0 35px 0;
+}
+
+.partner {
+    display: flex;
+    justify-content: space-between;
+}
+.partner>article {
+    margin-right: 50px;
+}
+.product2 {
+    overflow: hidden;
+    margin: 40px 0;
+}
+
+.product2 img {
+    float: left;
+}
+h1 {
+    text-align: center;
+}
+
+.productInner {
+    padding-left: 400px;
+}
+
+.productInner h2 {
+    margin-top: 0px;
+}
+
+.article {
+    border-bottom: 1px solid #CCC;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.article header {
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 10px;
+}
+
+.article header p {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.article .articleImg {
+    float: right;
+    margin: 0 0 0 30px;
+}
+
+.article h2 {
+    margin-top: 0;
+}
+
+.contactInfo {
+    margin: 30px 0;
+}
+
+.contactInfo p {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    font-size: 1.4em;
+}
+
+.contactInfo i {
+    width: 100px;
+    color: #ccc;
+}
+
+#map {
+    width: 100%;
+    height: 340px;
 }
